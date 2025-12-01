@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Farma Link - Compras Públicas Inteligentes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                dark: '#0B4778',     // Deep Blue (Logo Bottom)
+                darkBlue: '#062d4f', // Darker Blue for contrast
+                primary: '#00C4B4',  // Bright Teal (Logo Top)
+                secondary: '#009b8e', // Darker Teal
+                accent: '#ccfbf7',   // Light Teal
+                light: '#f0fdfc',    // Mint Light Surface
+                gray: '#F8FAFC',     // App Background
+                surface: '#ffffff',
+                text: '#1e293b',
+                muted: '#64748b'
+              }
+            },
+            boxShadow: {
+              'soft': '0 4px 20px -2px rgba(11, 71, 120, 0.05)',
+              'glow': '0 0 15px rgba(0, 196, 180, 0.3)'
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #F8FAFC;
+        color: #1e293b;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
